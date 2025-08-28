@@ -34,7 +34,7 @@ st.info("Simply upload an image and provide a prompt to generate creative text, 
 image = None
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_conatiner_width=True)
 
 def get_llm_response(prompt_text, image_data):
     """Generates a response from the Gemini model."""
@@ -50,7 +50,7 @@ def get_llm_response(prompt_text, image_data):
     return response.text
 
 # --- Submission Logic ---
-submit = st.button('Generate Campaign Text')
+submit = st.button('Generate Text')
 
 if submit:
     # Validate that at least one input is provided
