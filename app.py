@@ -24,7 +24,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader('📝 Enter Your Prompt')
-    prompt = st.text_area(label='Enter campaign details or a question about the image:', height=150)
+    prompt = st.text_area(label='Enter a question about the image:', height=150)
 
 with col2:
     st.subheader('🖼️ Upload Your Image')
