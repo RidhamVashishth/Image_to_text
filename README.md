@@ -1,7 +1,7 @@
 # **AI Image-to-Text Converter**
 
 A simple and powerful web application built with Streamlit that uses Google's Gemini AI to generate descriptive text and answer questions based on an uploaded image.
-
+You can access the app here https://imagetotextconv.streamlit.app/
 ## **Overview**
 
 This application provides an intuitive interface to leverage multimodal AI capabilities. Users can upload an image (JPG, JPEG, or PNG) and optionally provide a text prompt. The tool then uses the Gemini 1.5 Flash model to analyze the image's content and generate a relevant text response. This can be used for a variety of tasks, from creating simple descriptions and marketing copy to answering specific questions about what is depicted in the image.
