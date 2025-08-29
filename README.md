@@ -102,5 +102,4 @@ The application should now be running and accessible in your web browser.
 2. Use the sidebar to select the desired marketing tool (e.g., "Ad Copy Generator").  
 3. Optionally, upload a file to provide context for your query.  
 4. Type your question or instruction into the chat input box at the bottom of the screen and press Enter.  
-5. The assistant will respond in the chat window. You can ask follow-up questions to refine the results.  
-20. 
+5. The assistant will respond in the chat window. You can ask follow-up questions to refine the results
